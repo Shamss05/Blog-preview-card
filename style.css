@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+}
+.sec1 img{
+    width: 310px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sec4{
+    display: flex;
+    margin: 0 20px 20px 20px;
+}
+.sec2{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: 100px;
+    margin: 20px 20px 10px 20px;
+    height: 30px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#p1{
+    margin: 0 20px 10px 20px;
+    font-weight: 500;
+}
+#p2{
+    margin: 0 20px 20px 20px;
+    font-weight: 800;
+    font-size: larger;
+    cursor: pointer;
+}
+#p3{
+    margin: 0 20px 20px 20px;
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+.sec4 img{
+    width: 40px;
+}
+#p4{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#p2:hover{
+    color: hsl(47, 88%, 63%);
+}
+@media only screen and (max-width: 375px) {
+    .main{
+        width: 320px;
+    }
+    .sec1 img{
+        width: 280px;
+    }
+}
+
+
